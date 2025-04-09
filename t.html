@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hoạt động</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f9f9f9;
+        }
+
+        h1 {
+            margin: 30px 0;
+            font-size: 50px;
+            color: #333;
+        }
+
+        video {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: auto;
+        }
+
+        .photo-gallery {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+            padding: 40px 20px;
+        }
+
+        .photo-gallery img {
+            width: 66.66vw; /* 2/3 chiều rộng màn hình */
+            max-width: 1000px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        @media (max-width: 768px) {
+            .photo-gallery img {
+                width: 90vw;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Hoạt động của Lớp</h1>
+
+    <video width="1500" height="640" controls autoplay muted>
+        <source src="videohoatdong.mp4" type="video/mp4" />
+        Trình duyệt của bạn không hỗ trợ video.
+    </video>
+    
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Concept Kỉ yếu</title>
+        <style>
+          body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #fff;
+          }
+      
+          h2.section-title {
+            text-align: center;
+            font-size: 40px;
+            margin: 40px 0 20px;
+            color: rgba(220, 217, 20, 0.851);
+            text-transform: uppercase;
+          }
+      
+          .image-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 0 20px;
+          }
+      
+          .image-item {
+            position: relative;
+            width: calc(33.333% - 20px);
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+          }
+      
+          .image-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+          }
+      
+          .image-item:hover img {
+            transform: scale(1.05);
+          }
+      
+          
+      
+          @media (max-width: 768px) {
+            .image-item {
+              width: 100%;
+            }
+          }
+        </style>
+      </head>
+      <body>
+      
+        <!-- Concept 1 -->
+        <h2 class="section-title">lớp 10 - Những ngày đầu của thanh xuân</h2>
+        <p style="max-width: 1000px; margin: 0 auto 30px; font-size: 22px; line-height: 1.7; padding: 0 20px; color: #333;">
+          Cánh cửa đầu tiên mở ra hành trình cấp ba. Đó là những ngày bỡ ngỡ, ngại ngùng khi lần đầu gặp nhau trong một lớp học mới, trường học mới. Chúng ta đã cùng nhau trải qua một năm với đầy ắp kỷ niệm – từ buổi lao động đầu tiên, chuyến đi chơi dã ngoại, những trò đùa "bá đạo" trong lớp, đến cả những lần phạt đứng vì nói chuyện riêng. Mỗi khoảnh khắc đều là một mảnh ghép không thể thiếu trong bức tranh thanh xuân tươi đẹp – tuy chỉ là khởi đầu, nhưng lại là nền móng cho những năm tháng đáng nhớ sau này.
+        </p>
+        
+        <div class="image-grid">
+          <div class="image-item"><img src="lop10.9.jpg" alt=""><div class="image-caption"></div></div>
+          <div class="image-item"><img src="lop10.2.jpg" alt=""><div class="image-caption"></div></div>
+          <div class="image-item"><img src="lop10.1.jpg" alt=""><div class="image-caption"></div></div>
+          <div class="image-item"><img src="lop10.3.jpg" alt=""><div class="image-caption"></div></div>
+          <div class="image-item"><img src="lop10.4.jpg" alt=""><div class="image-caption"></div></div>
+          <div class="image-item"><img src="lop10.5.jpg" alt=""><div class="image-caption"></div></div>
+          <div class="image-item"><img src="lop10.6.jpg" alt=""><div class="image-caption"></div></div>
+          <div class="image-item"><img src="lop10.7.jpg" alt=""><div class="image-caption"></div></div>
+          <div class="image-item"><img src="lop10.8.jpg" alt=""><div class="image-caption"></div></div>
+        </div>
+      
+        <!-- Concept 2 -->
+        <h2 class="section-title">lớp 11 - Khi thanh xuân bắt đầu rực rỡ</h2>
+        <p style="max-width: 1000px; margin: 0 auto 30px; font-size: 22px; line-height: 1.7; padding: 0 20px; color: #333;">
+          Nếu lớp 10 là những bước chân đầu tiên đầy bỡ ngỡ, thì lớp 11 là lúc chúng ta bắt đầu hiểu nhau hơn, gắn bó hơn và trưởng thành hơn từng ngày. Một năm học trôi qua với bao cung bậc cảm xúc: những buổi học căng thẳng trước kỳ thi, những lần chạy deadline bài thuyết trình sát giờ, những buổi sinh hoạt lớp đầy ắp tiếng cười, và cả những lần tranh luận rồi lại cùng nhau làm hòa. Chúng ta đã cùng nhau tạo nên những kỷ niệm đậm sâu hơn – không còn là sự lạ lẫm ban đầu, mà là tình bạn, là sự sẻ chia và thấu hiểu. Lớp 11 không chỉ là hành trình học tập, mà còn là năm đánh dấu sự rực rỡ nhất của thanh xuân, khi mỗi người bắt đầu xác định rõ hơn con đường mình sẽ đi, nhưng vẫn luôn có nhau đồng hành trên từng chặng nhỏ.
+        </p>
+        <div class="image-grid">
+          <div class="image-item"><img src="lớp1.1.jpg" alt=""><div class="image-caption"></div></div>
+          <div class="image-item"><img src="lớp11.2.jpg" alt=""><div class="image-caption"></div></div>
+          <div class="image-item"><img src="lớp11.3.jpg" alt=""><div class="image-caption"></div></div>
+          <div class="image-item"><img src="lớp11.4.jpg" alt=""><div class="image-caption"></div></div>
+          <div class="image-item"><img src="lớp11.5.jpg" alt=""><div class="image-caption"></div></div>
+          <div class="image-item"><img src="lớp11.6.jpg" alt=""><div class="image-caption"></div></div>
+          <div class="image-item"><img src="lớp11.7.jpg" alt=""><div class="image-caption"></div></div>
+          <div class="image-item"><img src="lớp11.8.jpg" alt=""><div class="image-caption"></div></div>
+          <div class="image-item"><img src="lớp11.9.jpg" alt=""><div class="image-caption"></div></div>
+        </div>
+      
+        <!-- Concept 3 -->
+        <h2 class="section-title">lớp 12 - Những ngày cuối cùng của thanh xuân</h2>
+         <p style="max-width: 1000px; margin: 0 auto 30px; font-size: 22px; line-height: 1.7; padding: 0 20px; color: #333;">
+          Lớp 12 – năm học cuối cùng, nơi ta vừa háo hức chờ đợi tương lai, vừa tiếc nuối những tháng ngày còn lại bên nhau. Mỗi tiết học, mỗi giờ ra chơi, mỗi khoảnh khắc tưởng chừng bình thường lại trở nên đáng nhớ hơn bao giờ hết.
+
+Chúng ta đã cùng cười, cùng áp lực, cùng ước mơ và cùng lớn lên. Dù mai này mỗi người một ngả, xin hãy giữ lại trong tim những kỷ niệm của một thời thanh xuân rực rỡ – nơi bắt đầu của những hành trình trưởng thành.
+         </p>
+        <div class="image-grid">
+          <div class="image-item"><img src="lop121.jpg" alt=""><div class="image-caption"></div></div>
+          <div class="image-item"><img src="lop122.jpg" alt=""><div class="image-caption"></div></div>
+          <div class="image-item"><img src="123.jpg" alt=""><div class="image-caption"></div></div>
+          <div class="image-item"><img src="124.jpg" alt=""><div class="image-caption"></div></div>
+          <div class="image-item"><img src="125.jpg" alt=""><div class="image-caption"></div></div>
+          <div class="image-item"><img src="126.jpg" alt=""><div class="image-caption"></div></div>
+          <div class="image-item"><img src="127.jpg" alt=""><div class="image-caption"></div></div>
+          <div class="image-item"><img src="128.jpg" alt=""><div class="image-caption"></div></div>
+          <div class="image-item"><img src="129.jpg" alt=""><div class="image-caption"></div></div>
+        </div>
+        <p style="max-width: 1000px; margin: 0 auto 30px; font-size: 22px; line-height: 1.7; padding: 0 20px; color: #333;">
+          “Chúng ta không biết bao giờ là lần cuối cùng – nên hãy sống và yêu thương như thể mỗi khoảnh khắc đều là cuối cùng.”
+        </p>
+
+      
+      </body>
+      </html>
+
+    
+    
+    
+</body>
+</html>
